@@ -4,7 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 
@@ -177,9 +177,12 @@ footer{
 }
 
 /* Media Query - Deixar a página de forma responsiva */ 
-@media (max-width: 1080) {
- 
-    .body {
+@media only screen and (max-width: 820px){
+    .apresentacao{ background:#FFD700;color: #E3DAC9;}
+       
+
+.body {
+    
        /* background-color: rgb(0, 0, 0); */
         overflow: auto; /* Em telas de celular permite scroll, senão o conteúdo some */
         height: auto;
@@ -203,7 +206,7 @@ footer{
     width: 60%;    
     max-heidht: 40vh;
     }
-
+    
   } 
 
 
