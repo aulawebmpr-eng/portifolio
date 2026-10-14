@@ -76,14 +76,14 @@ s
 .menu-link{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;  /* Reduzido levemente para evitar quebras em telas menores */
-    font-weight: 90;
+    font-weight: 50px;
     color: #7dfd22;
     text-decoration: none;
     border-radius: 10%;
     border-style: double; 
     border-color: #fcfcfc;
     width: 100;                  
-    padding: 8px 10px;
+    padding: 10px 10px;
     
 }
 .menu-link:hover {
@@ -187,23 +187,23 @@ footer{
         overflow: auto; /* Em telas de celular permite scroll, senão o conteúdo some */
         height: auto;
     }
-/*.cabecalho{
-    padding: 10px;
-}*/
+.cabecalho{
+    padding: 15px;
+}
 .cabecalho-menu{
     justify-content: center;
     gap: 20px;
 }
 .apresentacao{
     flex-direction: column-reverse; 
-        padding: 20px 5%;
+        padding: 50px 5%;
         gap: 30px;
 }
 .apresentacao-conteudo{
     width: 100%;
 }
 #imagem-principal {
-    width: 60%;    
+    width: 80%;    
     max-heidht: 40vh;
     }
     
